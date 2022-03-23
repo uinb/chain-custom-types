@@ -2,7 +2,7 @@ module github.com/centrifuge/chain-custom-types
 
 go 1.17
 
-require github.com/centrifuge/go-substrate-rpc-client/v4 v4.0.1-0.20220323202857-6a1f1d80e503
+require github.com/centrifuge/go-substrate-rpc-client/v4 v4.0.1-0.20220323235529-414c4553ce7c
 
 require (
 	github.com/ChainSafe/go-schnorrkel v1.0.0 // indirect
