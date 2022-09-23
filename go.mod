@@ -3,7 +3,7 @@ module github.com/centrifuge/chain-custom-types
 go 1.18
 
 require (
-	github.com/centrifuge/go-substrate-rpc-client/v4 v4.0.6-0.20220907090905-e52986169245
+	github.com/centrifuge/go-substrate-rpc-client/v4 v4.0.7
 	github.com/google/gofuzz v1.1.1-0.20200604201612-c04b05f3adfa
 )
 
