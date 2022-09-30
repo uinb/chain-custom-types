@@ -124,10 +124,34 @@ type EventNftsDepositAsset struct {
 
 // EventFeesFeeChanged is emitted when a new fee has been set for a key
 type EventFeesFeeChanged struct {
-	Phase    types.Phase
-	Key      types.Hash
-	NewPrice types.U128
-	Topics   []types.Hash
+	Phase  types.Phase
+	Key    types.U8
+	Fee    types.U128
+	Topics []types.Hash
+}
+
+// EventFeesFeeToAuthor is emitted when a fee has been sent to the block author
+type EventFeesFeeToAuthor struct {
+	Phase   types.Phase
+	From    types.AccountID
+	Balance types.U128
+	Topics  []types.Hash
+}
+
+// EventFeesFeeToBurn is emitted when a fee has been burnt
+type EventFeesFeeToBurn struct {
+	Phase   types.Phase
+	From    types.AccountID
+	Balance types.U128
+	Topics  []types.Hash
+}
+
+// EventFeesFeeToTreasury is emitted when a fee has been sent to the treasury
+type EventFeesFeeToTreasury struct {
+	Phase   types.Phase
+	From    types.AccountID
+	Balance types.U128
+	Topics  []types.Hash
 }
 
 // EventClaimsClaimed is emitted when CFG Tokens have been claimed
