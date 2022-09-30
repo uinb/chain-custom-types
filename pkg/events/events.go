@@ -32,7 +32,10 @@ type Events struct {
 	CollatorAllowlist_CollatorAdded   []EventCollatorAllowlistCollatorAdded   //nolint:stylecheck,golint
 	CollatorAllowlist_CollatorRemoved []EventCollatorAllowlistCollatorRemoved //nolint:stylecheck,golint
 
-	Fees_FeeChanged []EventFeesFeeChanged //nolint:stylecheck,golint
+	Fees_FeeChanged    []EventFeesFeeChanged    //nolint:stylecheck,golint
+	Fees_FeeToAuthor   []EventFeesFeeToAuthor   //nolint:stylecheck,golint
+	Fees_FeeToBurn     []EventFeesFeeToBurn     //nolint:stylecheck,golint
+	Fees_FeeToTreasury []EventFeesFeeToTreasury //nolint:stylecheck,golint
 
 	Keystore_KeyAdded   []keystore.EventKeystoreKeyAdded   //nolint:stylecheck,golint
 	Keystore_KeyRevoked []keystore.EventKeystoreKeyRevoked //nolint:stylecheck,golint
