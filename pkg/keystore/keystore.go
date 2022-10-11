@@ -19,7 +19,7 @@ type EventKeystoreKeyRevoked struct {
 	Phase       types.Phase
 	Owner       types.AccountID
 	Key         types.Hash
-	BlockNumber types.BlockNumber
+	BlockNumber types.U32
 	Topics      []types.Hash
 }
 
