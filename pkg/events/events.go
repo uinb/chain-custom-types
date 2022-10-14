@@ -1,7 +1,7 @@
 package events
 
 import (
-	"github.com/centrifuge/chain-custom-types/pkg/keystore"
+	"github.com/uinb/chain-custom-types/pkg/keystore"
 )
 
 type Events struct {
