@@ -2,7 +2,7 @@ package proxy
 
 import (
 	"fmt"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+	"github.com/uinb/go-substrate-rpc-client/v4/scale"
 )
 
 type CentrifugeProxyType uint8

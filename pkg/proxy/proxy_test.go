@@ -1,7 +1,7 @@
 package proxy
 
 import (
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/test_utils"
+	. "github.com/uinb/go-substrate-rpc-client/v4/types/test_utils"
 	fuzz "github.com/google/gofuzz"
 	"testing"
 )

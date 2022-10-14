@@ -1,7 +1,7 @@
 package events
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/uinb/go-substrate-rpc-client/v4/types"
 )
 
 // EventCollatorAllowlistCollatorAdded is emitted when a collator has been added to the allowlist
