@@ -1,4 +1,4 @@
-module github.com/centrifuge/chain-custom-types
+module github.com/uinb/chain-custom-types
 
 go 1.18
 
