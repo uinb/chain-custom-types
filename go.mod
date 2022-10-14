@@ -3,7 +3,7 @@ module github.com/uinb/chain-custom-types
 go 1.18
 
 require (
-	github.com/uinb/go-substrate-rpc-client/v4 v4.0.9
+	github.com/uinb/go-substrate-rpc-client/v4 v4.0.10
 	github.com/google/gofuzz v1.1.1-0.20200604201612-c04b05f3adfa
 )
 
